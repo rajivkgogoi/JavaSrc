@@ -24,11 +24,27 @@ public class ArraySamples {
 	
 	public int LargestElement(int[] arr)
 	{
-		int largest;
+		int indexOfLargest = 0;
 		
-		for(int i = 0; i < arr.length; i++)
+		for(int i = indexOfLargest; i < arr.length; i++)
 		{
-			if(arr[i])
+			if(arr[i] > arr[indexOfLargest])
+			{
+				indexOfLargest = i;
+			}
+		}
+		
+		return indexOfLargest;
+	}
+	
+	public int SecondLargestElement(int[] arr)
+	{
+		int indexOfLargest = 0;
+		int secondLargestIndex = 0;
+		
+		for(int i = indexOfLargest; i < arr.length; i++)
+		{
+			
 		}
 	}
 }

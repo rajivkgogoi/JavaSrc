@@ -11,12 +11,8 @@ public class DSAndAlgo {
 		System.out.println("Hello Data Structures & Algorithms!");
 		
 		ArraySamples as = new ArraySamples();
-		int[] arr = {3,8,12,5,6};
-		int[] newarr = as.DeleteElement(arr, 5, 6);
+		int[] arr = {40,8,50,100};
+		System.out.println(as.LargestElement(arr));
 		
-		for(int i = 0; i < newarr.length; i++)
-		{
-			System.out.println(newarr[i]);
-		}
 	}
 }
