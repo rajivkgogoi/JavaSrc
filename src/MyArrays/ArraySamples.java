@@ -37,14 +37,24 @@ public class ArraySamples {
 		return indexOfLargest;
 	}
 	
+	// Please try this later
 	public int SecondLargestElement(int[] arr)
 	{
-		int indexOfLargest = 0;
-		int secondLargestIndex = 0;
+		int indexOfLargest = LargestElement(arr);
+		int indexOfSecondLargest = 0;
 		
-		for(int i = indexOfLargest; i < arr.length; i++)
+		for(int i = 0; i < arr.length; i++)
 		{
-			
+			if(arr[i] == arr[indexOfLargest])
+			{
+				continue;
+			}
+			if(arr[i] > arr[indexOfSecondLargest])
+			{
+				indexOfSecondLargest = i;
+			}
 		}
+		
+		return indexOfSecondLargest;
 	}
 }
