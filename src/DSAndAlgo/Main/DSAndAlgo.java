@@ -8,7 +8,7 @@ public class DSAndAlgo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello Data Structures & Algorithms!");
+		System.out.println("Hello Data Structures & Algorithms testing!");
 		
 		ArraySamples as = new ArraySamples();
 		int[] arr = {20,10,20,8,12};
