@@ -3,6 +3,7 @@ package DSAndAlgo.Main;
 import Analysis.Sumoffirstn;
 import MyArrays.ArraySamples;
 import Recursion.MyRecursion;
+import Sorting.*;
 
 public class DSAndAlgo {
 
@@ -10,10 +11,10 @@ public class DSAndAlgo {
 		// TODO Auto-generated method stub
 		System.out.println("Hello Data Structures & Algorithms testing!");
 		
-		ArraySamples as = new ArraySamples();
-		int[] arr = {20,10,20,8,12};
-		// Try this later
-		System.out.println(as.SecondLargestElement(arr));
+		//ArraySamples as = new ArraySamples();
+		int[] arr = {4,5,3,1,7,9};
+		SelectionSort sorting = new SelectionSort();
+		sorting.Sort(arr);
 		
 	}
 }
