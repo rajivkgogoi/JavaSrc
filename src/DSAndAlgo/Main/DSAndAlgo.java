@@ -13,7 +13,7 @@ public class DSAndAlgo {
 		
 		//ArraySamples as = new ArraySamples();
 		int[] arr = {4,5,3,1,7,9};
-		SelectionSort sorting = new SelectionSort();
+		BubbleSort sorting = new BubbleSort();
 		sorting.Sort(arr);
 		
 	}
