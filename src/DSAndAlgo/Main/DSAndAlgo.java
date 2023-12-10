@@ -13,8 +13,12 @@ public class DSAndAlgo {
 		
 		//ArraySamples as = new ArraySamples();
 		int[] arr = {4,5,3,1,7,9};
-		InsertionSort sorting = new InsertionSort();
-		sorting.Sort(arr);
+		MergeSort sorting = new MergeSort();
+		int[] arrNew = sorting.Sort(arr);
 		
+		for(int i = 0; i < arrNew.length; i++)
+		{
+			System.out.println(arrNew[i]);
+		}
 	}
 }
